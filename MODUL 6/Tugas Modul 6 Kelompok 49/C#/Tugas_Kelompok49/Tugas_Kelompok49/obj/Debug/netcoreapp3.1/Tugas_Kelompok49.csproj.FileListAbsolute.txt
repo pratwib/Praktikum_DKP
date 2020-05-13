@@ -1,0 +1,11 @@
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\bin\Debug\netcoreapp3.1\Tugas_Kelompok49.exe
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\bin\Debug\netcoreapp3.1\Tugas_Kelompok49.deps.json
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\bin\Debug\netcoreapp3.1\Tugas_Kelompok49.runtimeconfig.json
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\bin\Debug\netcoreapp3.1\Tugas_Kelompok49.runtimeconfig.dev.json
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\bin\Debug\netcoreapp3.1\Tugas_Kelompok49.dll
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\bin\Debug\netcoreapp3.1\Tugas_Kelompok49.pdb
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\obj\Debug\netcoreapp3.1\Tugas_Kelompok49.csprojAssemblyReference.cache
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\obj\Debug\netcoreapp3.1\Tugas_Kelompok49.AssemblyInfoInputs.cache
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\obj\Debug\netcoreapp3.1\Tugas_Kelompok49.AssemblyInfo.cs
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\obj\Debug\netcoreapp3.1\Tugas_Kelompok49.dll
+E:\PERKULIAHAN\MATERI\PRAKTIKUM DKP\MODUL 6\Tugas Modul 6 Kelompok 49\C#\Tugas_Kelompok49\Tugas_Kelompok49\obj\Debug\netcoreapp3.1\Tugas_Kelompok49.pdb

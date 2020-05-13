@@ -1,0 +1,7 @@
+1. Sebutkan tujuan dari praktikum ini.
+2. Sebutkan pengertian dari stack and queue.
+3. Sebutkan dan jelaskan konsep pada stack and queue.
+4. Sebutkan method dan bahasa yang menggunakan method tersebut 
+   pada stack. (Minimal 1 method dari tiap bahasa pemrograman).
+5. Sebutkan method dan bahasa yang menggunakan method tersebut 
+   pada queue(Minimal 1 method dari tiap bahasa pemrograman).

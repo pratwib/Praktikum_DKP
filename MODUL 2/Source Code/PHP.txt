@@ -1,0 +1,95 @@
+Pengkodisian PHP
+1) If
+<?php
+	$ptn = "UNDIP";
+
+	if($ptn == "UNDIP") {
+			echo $ptn, "<br>Universitas Diponegoro<br>";
+	}
+	echo "Program Selesai";
+	?>
+2) If.. else
+<?php
+	$ptn = "UGM";
+
+	if($ptn == "UNDIP") {
+			echo $ptn, "<br>Universitas Diponegoro<br>";
+	}
+	else{
+		echo "Inputan SALAH<br>";
+	}
+	echo "Program Selesai";
+	?>
+3) If.. else if.. else
+<?php
+	echo "<h2> Pilih Perguruan Tinggi Negeri </h2>";
+	echo "1. UGM<br>";
+	echo "2. UNDIP<br><hr>";
+
+	$ptn = "2";
+
+	if($ptn == "1") {
+			echo "UGM, Universitas Gajah Mada<br>";
+	}
+	else if($ptn == "2"){
+		echo "UNDIP, Universitas Diponegoro<br>";
+	}
+	echo "Program Selesai";
+	?>
+4) Switch Case
+<form method="post">
+	Masukan angka yang diinginkan : <input type="text" name="angka"> <br> 
+	<input type="submit" value="Lihat Nilai"> 
+</form>
+<?php
+	$angka = isset($_POST['angka'])?abs((int)$_POST['angka']):'';
+
+	switch ($angka) {
+			case ($angka >=80):
+			echo "Anda mendapatkan nilai A dengan nilai ".$angka; break;
+			case ($angka >=70):
+			echo "Anda mendapatkan nilai B dengan nilai ".$angka; break;
+			case ($angka >=60):
+			echo "Anda mendapatkan nilai C dengan nilai ".$angka; break;
+		
+		default:
+			echo "Anda harus mengulang! Semangat! Karena nilai anda ".$angka; break;
+	}
+	echo "<br>Program Selesai<br>";
+	?>
+--------------------------------------------------------------------------------------------------------
+Perulangan PHP
+1) While
+<!DOCTYPE html>
+<html>
+<head>
+	<title>perulangan while</title>
+</head>
+<body>
+<?php
+$i=1;
+while ($i <= 5) {
+ 	echo "Selamat datang di Praktikum DKP 2019";
+	echo "<br />";
+	$i++;
+ } 
+?>
+</body>
+</html>
+2) Do.. While
+<?php
+$i=1;
+do {
+ 	echo "Antrian ke",$i;
+	echo "<br />";
+	$i++;
+ } while ($i <= 5);
+?>
+3) For
+<?php
+$i=1;
+for ($i=0; $i <=5 ; $i++) { 
+ 	echo "Urutan FOR ke-",$i;
+	echo "<br />";
+ }  
+?>

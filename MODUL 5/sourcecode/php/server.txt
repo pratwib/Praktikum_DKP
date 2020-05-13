@@ -1,0 +1,13 @@
+<?php
+include("userService.php");
+
+$user = new userService($_POST['email'], $_POST['password']);
+
+if($get_user = $user->login()) {
+    echo 'Welcome '.$user->getRole();
+    echo ', Logged it as user email:'.$get_user;
+} else {
+    echo 'Invalid Login';
+}
+
+?>

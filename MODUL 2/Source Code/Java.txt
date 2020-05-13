@@ -1,0 +1,80 @@
+Pengkodisian Java
+1)if
+int i = 20;
+        if(i > 10){
+            System.out.println("Angka lebih dari 10");
+        }
+            System.out.println("Program Selesai");
+2)if.. else
+import java.util.Scanner;
+public class Perulangan {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukan Angka = ");
+        int i = sc.nextInt();
+        if(i > 10){
+            System.out.println("Angka lebih besar dari 10 yaitu "+i);
+        }
+        else{
+            System.out.println("Angka kurang dari 10 yaitu"+i);
+        }
+        System.out.println("Program Selesai");
+    }
+}
+3)if.. else if.. else
+import java.util.Scanner;
+public class Perulangan {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukan Angka = ");
+        int i = sc.nextInt();
+        if(i == 0){
+            System.out.println("Angka yang dimasukan adalah 0");
+        }
+        else if(i>0) {
+            System.out.println("Bilangan Bulat Positif yaitu"+i);
+        }
+        else if(i<0){
+            System.out.println("Bilangan Buat Negatif yaitu"+i);
+        }
+        System.out.println("Program Selesai");
+    }
+}
+4)Switch Case
+import java.util.Scanner;
+public class Perulangan {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Masukan Angka 1-2 yang di inginkan = ");
+        int i = sc.nextInt();
+        switch(i){
+        case(1):System.out.println("Angka yang anda masukan bernilai A");break;
+        case(2):System.out.println("Angka yang anda masukan bernilai B");break;
+        default:System.out.println("Angka yang anda masukan tak bernilai A ataupun B");break;
+        }
+        System.out.println("Program Selesai");
+    }
+}
+---------------------------------------------------------------------------------------------
+Perulangan Java
+1) While
+	int i = 1;
+        while(i <= 5){
+            System.out.println("Selamat Datang di Praktikum DKP dengan perulangan ke-"+i);
+            i++;
+        }
+2) do.. while
+ 	int i = 1;
+        do{
+            System.out.println("Selamat Datang di Praktikum DKP dengan perulangan DO WHILE ke-"+i);
+            i++;
+        } 
+        while(i <= 5);
+3) For
+ 	int i;
+        for(i=1;i<=5;i++) {
+            System.out.println("Selamat Datang di Praktikum DKP dengan perulangan FOR ke-"+i);         
+        }        

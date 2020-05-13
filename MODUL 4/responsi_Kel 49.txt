@@ -1,0 +1,10 @@
+------------------SOAL----------------------------------
+Kerjakan soal berikut:
+  1) Apa yang dimaksud dengan built in function? 
+  2) Sebutkan dan jelaskan 3 built in function pada python, java, php, dan C#
+  2) Jelaskan perbedaan function pada python, java, php, dan C#
+  3) Jelaskan perbedaan method pada python, java, php, dan C#
+
+-----------------Pengumpulan-------------------------------------
+TULIS TANGAN DI KERTAS BER KOP LAB SOFTWARE. KERJAKAN INDIVIDU DAN KUMPULKAN 1 KELOMPOK DALAM 1 FILE .PDF KE EMAIL
+Note: (Kalau tidak ada kertas ber kop, pakai HVS biasa gapapa) 

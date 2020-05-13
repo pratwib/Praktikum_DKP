@@ -1,0 +1,103 @@
+Pengkodisian C#
+1) IF
+	    int nilai;
+            nilai = 45;
+
+            if(nilai > 0 && nilai < 80)
+            {
+                Console.WriteLine("Success Condition");
+                Console.ReadLine();
+            }
+2) If... else
+	    float a;
+            string angka;
+            Console.WriteLine("PROGRAM BILANGAN BULAT");
+            Console.Write("Masukan Angka = ");
+            angka = Console.ReadLine();
+            float.TryParse(angka, out a);
+
+            if(a > 0)
+            {
+                Console.WriteLine("BILANGAN BULAT POSITIF");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("BILANGAN BULAT NEGATIF");
+                Console.ReadLine();
+            }
+3) if.. else if.. else
+	    float a;
+            string angka;
+            Console.WriteLine("PROGRAM BILANGAN BULAT");
+            Console.Write("Masukan Angka = ");
+            angka = Console.ReadLine();
+            float.TryParse(angka, out a);
+
+            if (a > 0)
+            {
+                Console.WriteLine("BILANGAN BULAT POSITIF");
+                Console.ReadLine();
+            }
+            else if (a == 0)
+            {
+                Console.WriteLine("Angka Nol");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("BILANGAN BULAT NEGATIF");
+                Console.ReadLine();
+            }
+4) Switch Case
+	    string nilai;
+            Console.Write("Masukan Nilai (A-E) :");
+            nilai = Console.ReadLine();
+
+            switch (nilai)
+            {
+                case "A";
+                    Console.WriteLine("Nilai Anda\t: {0} (80 - 100)", nilai);
+                    Console.ReadLine();break;
+                case "B";
+                    Console.WriteLine("Nilai Anda\t: {0} (80 - 100)", nilai);
+                    Console.ReadLine(); break;
+                case "C";
+                    Console.WriteLine("Nilai Anda\t: {0} (80 - 100)", nilai);
+                    Console.ReadLine(); break;
+                case "D";
+                    Console.WriteLine("Nilai Anda\t: {0} (80 - 100)", nilai);
+                    Console.ReadLine(); break;
+                case "E";
+                    Console.WriteLine("Nilai Anda\t: {0} (80 - 100)", nilai);
+                    Console.ReadLine(); break;
+                default;
+                    Console.WriteLine("Nilai yang Anda Masukan SALAH");
+                    Console.ReadLine();break;
+            }
+------------------------------------------------------------------------------------
+Perulangan C#
+1) WHILE
+	    int angka = 1;
+            while (angka <= 5)
+            {
+                Console.WriteLine("PERULANGAN WHILE KE -" + angka);
+                angka++;
+            }
+                Console.ReadLine();
+2) Do.. While
+	    int angka = 1;
+            do
+            {
+                Console.WriteLine("PERULANGAN DO WHILE KE - " + angka);
+                angka++;
+            }
+                while (angka <= 5);
+                Console.ReadLine();
+3) FOR
+	    int jumlah;
+            for (jumlah = 1; jumlah <= 5; jumlah++)
+            {
+                Console.WriteLine("PERULANGAN FOR KE - "+ jumlah);
+            }
+            Console.ReadLine();

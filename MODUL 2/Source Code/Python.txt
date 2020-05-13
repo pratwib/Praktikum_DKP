@@ -1,0 +1,40 @@
+angka = 5;
+if angka % 2 == 1:
+	print('Angka yang anda masukan adalah angka ganjil')
+print('program selesai')
+
+----------------------------------------------------------------------------------------
+
+angka = float(input('Masukkan angka yang diinginkan = '))
+if angka % 2 == 0:
+	print('Angka yang anda masukkan adalah genap')
+else:
+	print('Angka yang anda masukkan adalah ganjil')
+print('Program selesai')
+
+-----------------------------------------------------------------------------------------
+
+angka = float(input('Masukkan angka yang anda inginkan = '))
+if angka % 2 == 0:
+	print('Angka yang anda masukkan adalah genap yaitu %s' %angka)
+elif angka % 2 == 1:
+	print('Angka yang anda masukkan adalah ganjil yaitu %s' %angka)
+else:
+	print('Angka yang anda masukkan bukan bilangan bulat yaitu %s' %angka)
+print('Program Selesai')
+
+------------------------------------------------------------------------------------------
+
+options = {
+	1 : 'Senin',
+	2 : 'Selasa',
+	3 : 'Rabu',
+	4 : 'Kamis',
+	5 : 'Jum'at',
+	6 : 'Sabtu',
+	7 : 'Minggu',
+	}
+x = float(input('Masukkan angka yang diinginkan = '))
+print('Hari : %s' % options.setdefault(x, 'Inputan hanya 1 - 7'))
+
+-------------------------------------------------------------------------------------------

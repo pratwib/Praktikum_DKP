@@ -1,0 +1,5 @@
+1. Menurutmu, bagaimana konsep modifier,class dan constructor?
+2. Bagaimana cara membuat constructor dari keempat bahasa untuk praktikum DKP?
+2. Bagaimana cara membuat objek dari class lain ?
+3. Apa yang yang dimaksud dengan OOP?
+4. Pelajari Modul!
